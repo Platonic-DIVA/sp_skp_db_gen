@@ -40,7 +40,7 @@ for motion_index, motion_name in enumerate(motions.keys()):
 script += f"motion.length={len(motions)}\n"
 script += "pv.length=0\n"
 
-output_file = "mod_osage_setting.txt" # export to mod_osage_setting.txt
+output_file = "mod_sp_skp_db.txt" # export to mod_sp_skp_db.txt
 with open(output_file, "w") as file:
     file.write(script)
 
